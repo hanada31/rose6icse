@@ -23,10 +23,10 @@ A prototype tool Fax (Fair Android Explorer) is placed on a publicly accessible 
   - IntentBench: Self-designed benchmark
   - FaxTool: Runable tool Fax
   
-* Install Java
-* Install Ant
+* Install Java 8
+* Install Ant 1.10.7
 * Install Python 2.7
-* Fax requires the Z3 dynamic link library as well as the dynamic link library for the Z3/Java API .
+* Fax requires the Z3(https://github.com/Z3Prover/z3) dynamic link library as well as the dynamic link library for the Z3/Java API .
   * For Windows: copy lib/libz/libz3.dll and lib/libz3/libz3java.dll to %JAVA_HOME%\bin\.
   * For Unix-like platforms: 
     * copy lib/libz3/libz3.so and lib/libz3/libz3java.so to [your\_library\_path]
